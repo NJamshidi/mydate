@@ -9,7 +9,7 @@ public class Main {
         MyDate myDate = new MyDate();
         boolean result = myDate.isValidDate(1399, 12, 28);
         System.out.println(result);
-        int lastDay = myDate.getmontlastDay(12);
+        int lastDay = myDate.getmontlastDay(11);
         System.out.println(lastDay);
     }
 
